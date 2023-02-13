@@ -1,0 +1,6 @@
+# IDEs
+.idea
+
+# composer files
+composer.phar
+vendor/
