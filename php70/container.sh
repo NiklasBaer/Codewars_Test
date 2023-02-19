@@ -10,5 +10,5 @@ docker run \
   --rm \
   --tty \
   --user "$(id -u)":"$(id -g)" \
-  --volume "${PWD}":/app \
+  --volume "${PWD}":/php70 \
   andrerademacher/codewars-php70 "$@"
