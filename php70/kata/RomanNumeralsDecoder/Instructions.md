@@ -30,5 +30,7 @@ M          1,000
 ```
 *Courtesy of rosettacode.org*
 
+[See this kata in Codewars](https://www.codewars.com/kata/51b6249c4612257ac0000005)
+
 
 

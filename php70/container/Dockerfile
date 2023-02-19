@@ -21,4 +21,4 @@ COPY --from=build /usr/local/lib/php/extensions/no-debug-non-zts-20151012/xdebug
 COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 COPY --from=composer/composer:2.2-bin /composer /usr/local/bin/composer
 USER 1000
-WORKDIR /app
+WORKDIR /php70
